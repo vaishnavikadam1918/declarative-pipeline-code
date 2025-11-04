@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/vaishnavikadam1918/declarative-pipeline-code.git'
+                git branch: 'master', url: 'https://github.com/iamtruptimane/student-app.git'
             }
         }
 
